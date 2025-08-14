@@ -1,12 +1,11 @@
 
 #######################################################################################################################################################
 # 
-# Name:
+# Name: Aadil Panhwar
 # SID:
-# Exam Date:
-# Module:
-# Github link for this assignment:  
-#
+# Exam Date: 14-August-2025
+# Module: Programming for Business Analytics
+# Github link for this assignment:  https://github.com/UniversityExeterBusinessSchool/bemm458-ref-def-2425-practice-test-AadilPanhwar/edit/main/BEMM458_REF_DEF_Practice_Test.py#L51C0#
 ########################################################################################################################################################
 # Instruction 1. Carefully read each question before attempting the solution. Complete all tasks in the script provided.
 
@@ -48,6 +47,28 @@ feedback_keywords = {
 
 # Write your code here to populate location_list
 location_list = []
+
+location_list = []
+i = """Thank you for giving me the opportunity to share my honest opinion. I found the packaging impressive and delivery punctual. 
+However, there are several key aspects that require improvement. The installation process was somewhat confusing, and I had to refer to external 
+tutorials. That said, the design aesthetics are great, and the customer support team was highly responsive. I would love to see more 
+transparency in product specifications and a simpler return process. Overall, a balanced experience with clear potential for enhancement."""
+
+class location_list:
+    pos_start = []
+    string_length = []
+    string_end = []
+    
+start_string = location_list.pos_start[i]
+string_length = len(start_string)
+end_string = location_list.string_end[i + len(start_string)]
+for i in range(len(location_list)):
+    if location_list.string_start[i] == start_string:
+        start_string = location_list.string_start[i]
+    if location_list.string_end[i + len(start_string)] == end_string:
+        end_string = location_list.string_end[i + len(start_string)]
+        
+print(start_string, end_string)
 
 ########################################################################################################################################################
 # Question 2 - Metrics Function for Business Intelligence
